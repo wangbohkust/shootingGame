@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2DA7214B1A6C64B000BF524E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA7214A1A6C64B000BF524E /* AppDelegate.swift */; };
-		2DA7214D1A6C64B000BF524E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DA7214C1A6C64B000BF524E /* GameScene.sks */; };
 		2DA7214F1A6C64B000BF524E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA7214E1A6C64B000BF524E /* GameScene.swift */; };
 		2DA721511A6C64B000BF524E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA721501A6C64B000BF524E /* GameViewController.swift */; };
 		2DA721541A6C64B000BF524E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721521A6C64B000BF524E /* Main.storyboard */; };
 		2DA721561A6C64B000BF524E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721551A6C64B000BF524E /* Images.xcassets */; };
 		2DA721591A6C64B000BF524E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721571A6C64B000BF524E /* LaunchScreen.xib */; };
 		2DA721651A6C64B000BF524E /* shootingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA721641A6C64B000BF524E /* shootingGameTests.swift */; };
+		2DA721781A6C669000BF524E /* monster.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721721A6C669000BF524E /* monster.png */; };
+		2DA721791A6C669000BF524E /* monster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721731A6C669000BF524E /* monster@2x.png */; };
+		2DA7217A1A6C669000BF524E /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721741A6C669000BF524E /* player.png */; };
+		2DA7217B1A6C669000BF524E /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721751A6C669000BF524E /* player@2x.png */; };
+		2DA7217C1A6C669000BF524E /* projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721761A6C669000BF524E /* projectile.png */; };
+		2DA7217D1A6C669000BF524E /* projectile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DA721771A6C669000BF524E /* projectile@2x.png */; };
+		2DA7217F1A6C776100BF524E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA7217E1A6C776100BF524E /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +37,6 @@
 		2DA721451A6C64B000BF524E /* shootingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shootingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA721491A6C64B000BF524E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA7214A1A6C64B000BF524E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DA7214C1A6C64B000BF524E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2DA7214E1A6C64B000BF524E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2DA721501A6C64B000BF524E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2DA721531A6C64B000BF524E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +45,15 @@
 		2DA7215E1A6C64B000BF524E /* shootingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shootingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DA721631A6C64B000BF524E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA721641A6C64B000BF524E /* shootingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shootingGameTests.swift; sourceTree = "<group>"; };
+		2DA7216F1A6C667000BF524E /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		2DA721701A6C667000BF524E /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
+		2DA721721A6C669000BF524E /* monster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monster.png; sourceTree = "<group>"; };
+		2DA721731A6C669000BF524E /* monster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "monster@2x.png"; sourceTree = "<group>"; };
+		2DA721741A6C669000BF524E /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		2DA721751A6C669000BF524E /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		2DA721761A6C669000BF524E /* projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = projectile.png; sourceTree = "<group>"; };
+		2DA721771A6C669000BF524E /* projectile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "projectile@2x.png"; sourceTree = "<group>"; };
+		2DA7217E1A6C776100BF524E /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +95,12 @@
 		2DA721471A6C64B000BF524E /* shootingGame */ = {
 			isa = PBXGroup;
 			children = (
+				2DA721711A6C667600BF524E /* sprites.atlas */,
+				2DA7216E1A6C665600BF524E /* Sounds */,
 				2DA7214A1A6C64B000BF524E /* AppDelegate.swift */,
-				2DA7214C1A6C64B000BF524E /* GameScene.sks */,
 				2DA7214E1A6C64B000BF524E /* GameScene.swift */,
 				2DA721501A6C64B000BF524E /* GameViewController.swift */,
+				2DA7217E1A6C776100BF524E /* GameOverScene.swift */,
 				2DA721521A6C64B000BF524E /* Main.storyboard */,
 				2DA721551A6C64B000BF524E /* Images.xcassets */,
 				2DA721571A6C64B000BF524E /* LaunchScreen.xib */,
@@ -116,6 +132,28 @@
 				2DA721631A6C64B000BF524E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DA7216E1A6C665600BF524E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2DA7216F1A6C667000BF524E /* background-music-aac.caf */,
+				2DA721701A6C667000BF524E /* pew-pew-lei.caf */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		2DA721711A6C667600BF524E /* sprites.atlas */ = {
+			isa = PBXGroup;
+			children = (
+				2DA721721A6C669000BF524E /* monster.png */,
+				2DA721731A6C669000BF524E /* monster@2x.png */,
+				2DA721741A6C669000BF524E /* player.png */,
+				2DA721751A6C669000BF524E /* player@2x.png */,
+				2DA721761A6C669000BF524E /* projectile.png */,
+				2DA721771A6C669000BF524E /* projectile@2x.png */,
+			);
+			name = sprites.atlas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +237,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DA721591A6C64B000BF524E /* LaunchScreen.xib in Resources */,
+				2DA7217B1A6C669000BF524E /* player@2x.png in Resources */,
+				2DA7217C1A6C669000BF524E /* projectile.png in Resources */,
 				2DA721561A6C64B000BF524E /* Images.xcassets in Resources */,
-				2DA7214D1A6C64B000BF524E /* GameScene.sks in Resources */,
+				2DA7217A1A6C669000BF524E /* player.png in Resources */,
+				2DA721781A6C669000BF524E /* monster.png in Resources */,
+				2DA7217D1A6C669000BF524E /* projectile@2x.png in Resources */,
 				2DA721541A6C64B000BF524E /* Main.storyboard in Resources */,
+				2DA721791A6C669000BF524E /* monster@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +264,7 @@
 			files = (
 				2DA7214F1A6C64B000BF524E /* GameScene.swift in Sources */,
 				2DA721511A6C64B000BF524E /* GameViewController.swift in Sources */,
+				2DA7217F1A6C776100BF524E /* GameOverScene.swift in Sources */,
 				2DA7214B1A6C64B000BF524E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
